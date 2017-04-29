@@ -14,7 +14,7 @@ REASONABLE_DEFAULTS = {
         'epsg':'900913', # default osm2pgsql import srid
         'world_boundaries':'world_boundaries', # relative path
         'symbols':'symbols', # relative path
-        'prefix':'planet_osm', # default osm2pgsql table prefix
+        'prefix':'planet_osm_hstore', # default osm2pgsql table prefix
         'extent':'-20037508,-19929239,20037508,19929239', # world in merc
         'inc':'inc/*.template', # search path for inc templates to parse
         'estimate_extent':'false',   
